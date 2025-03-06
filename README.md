@@ -2,6 +2,12 @@
 
 Este es el proyecto final para el curso de **Desarrollo Web en CoderHouse**. Se trata de un sitio web para una nutricionista, donde los usuarios pueden conocer los servicios ofrecidos y obtener información sobre alimentación saludable.
 
+## 🌐 Ver el Proyecto en Línea
+El sitio web está disponible en el siguiente enlace:
+
+🔗 **[Nutricionista Yuliana Lazo](https://nutricionyulianalazo.netlify.app/)**
+
+
 ## 🏗️ Tecnologías utilizadas
 - **HTML5**: Para la estructura del sitio.
 - **CSS + SCSS**: Para estilos personalizados y mejor mantenimiento del código.
