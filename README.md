@@ -1,6 +1,6 @@
-# 🌿 Nutricionista Lazo - Entrega Final 🚀
+# 🌿 Leonel Martínez - Entrega Final 🚀
 
-Este es el proyecto final para el curso de **Frontend en CoderHouse**. Se trata de un sitio web para una nutricionista, donde los usuarios pueden conocer los servicios ofrecidos y obtener información sobre alimentación saludable.
+Este es el proyecto final para el curso de **Desarrollo Web en CoderHouse**. Se trata de un sitio web para una nutricionista, donde los usuarios pueden conocer los servicios ofrecidos y obtener información sobre alimentación saludable.
 
 ## 🏗️ Tecnologías utilizadas
 - **HTML5**: Para la estructura del sitio.
