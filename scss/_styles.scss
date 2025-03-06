@@ -1,0 +1,130 @@
+
+
+.formato-index {
+    background: rgba(0, 0, 0, 0.6); 
+    max-width: 800px; 
+    padding: 20px;
+    border-radius: 10px; 
+  
+    .titulo-index {
+        margin-bottom: 10px;
+    }
+  }
+
+//////////// Main Index ////////////////
+
+.main-index {
+    background-image: url("../assets/comida-variada-optimizada.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh; /* Hace que ocupe el 80% de la pantalla */    
+    background-blend-mode: multiply; /* Mezcla la imagen con el color */
+  }
+
+//////////// Main Noticias ////////////////
+
+.instagram-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .card {
+        max-width: 400px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .card-content {
+            padding: 15px;
+
+            h3 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            .btn-instagram {
+                display: inline-block;
+                margin-top: 10px;
+                padding: 10px 15px;
+                font-size: 1.1rem;
+                border-radius: 8px;
+                text-decoration: none;
+                transition: background 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+//////////// Footer comun //////////////
+
+.footer-common {
+    background-color: #f8e8e8;
+    padding: 20px 0;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #8B0000;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+        li {
+            font-size: 1rem;
+            padding: 3px 0;
+            &::before {
+                content: "✔ ";
+                color: #8B0000;
+            }
+        }
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    .footer-link {
+        color: #8B0000;
+        text-decoration: none;
+        font-size: 0.9rem;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+////////////// Animaciones //////////////////
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }

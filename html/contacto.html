@@ -1,79 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
+    <meta name="description" content="Agenda tu consulta nutricional con la Lic. Yuliana Lazo en La Plata. Contacto por WhatsApp, redes sociales o consulta presencial.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="keywords" content="contacto nutricionista, agenda consulta, consulta nutricional, La Plata, WhatsApp nutricionista">
     <!--  Linkeo CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Titulo -->
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
     <title>Contacto - Nutricionista Lazo</title>
 </head>
 <body>
-
     <!-- Header general -->
+    <header class="header-common">
+        <div class="container-fluid px-1 px-md-5">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">               
+                <a class="d-flex justify-content-center justify-content-md-start" href="../index.html">
+                    <img src="../assets/Logo.webp" alt="Logo" class="img-fluid custom-img w-75">
+                </a>
+                <div class="d-flex flex-column flex-md-row align-items-center gap-md-3">                   
+                    <h1 class="display-5 display-md-3 mb-3 fw-bold px-2">Lic. Lazo, Yuliana Melina</h1>
+                    <nav class="menu-header">
+                        <ul class="nav justify-content-center justify-content-md-end gap-2 gap-md-3 flex-md-row mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="./noticias.html">Noticias</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" aria-current="page" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-    <header>
-        <!-- menu, logo, titulo, redes, carrusel -->
-        <div class="logo-header">
-            <img src="../assets/Logo.png">
-        </div>
-        <h1>Lic. Lazo, Yuliana Melina</h1>
-        <nav class="menu-header">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../html/servicios.html">Servicios</a></li>
-                <li><a href="./contacto.html">Contactos</a></li>
-            </ul>
-        </nav>
+                </div>
+            </div>
+        </div>        
     </header>
-
     <!-- Main contacto -->
-
-    <main>
-        <h2 class="subtitulo-contacto">Contacto</h2>
-        <section class="main-contactos">
-            <div class="mapa-contacto">
-                <img src="../assets/mapa.png">
-            </div>
-            <div class="direccion-contacto">
-                <ul>
-                    <li><p>Direccion:</p></li>
-                        <p>Calle 9 esq. 47</p>
-                        <p>La Plata</p>
-                        <p>Buenos Aires CP: 1900</p>
-                        <p>Argentina</p>
-                </ul>
-            </div>
-            <div class="telefono-contacto">
-                <ul>
-                    <li><p>WhatsApp para turnos y consultas:</p></li>
-                        <p>+549-221-xxxxxxx</p>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer general -->
-
-    <footer>
-        <!-- redes sociales, menu de navegacion, contactos, etc.. -->
-        <div class="logo-footer">
-            <img src="../assets/Logo.png">
+    <main class="main-contacto fade-in">
+        <div class="container mx-auto d-flex flex-column justify-content-center align-items-center">
+            <section class="text-center w-100">
+                <div class="d-flex align-items-center justify-content-center gap-3 p-2 w-100">
+                    <hr class="flex-grow-1 border border-dark">
+                    <h2 class="subtitulo-contacto text-center px-3 fs-3 fs-md-2">CONTACTO</h2>
+                    <hr class="flex-grow-1 border border-dark">
+                </div>
+                <div class="datos-contacto d-flex flex-column flex-md-row justify-content-between gap-2 p-5 align-items-center">
+                    <div class="telefono-contacto text-center text-md-center mb-3">
+                        <p class="fs-4 fw-bold">Turnos y consultas</p>
+                        <a href="https://api.whatsapp.com/send/?phone=5492213566883&text=Hola%21+Quiero+pedir+info+para+una+consulta+nutricional&type=phone_number&app_absent=0" 
+                            target="_blank" 
+                            class="btn btn-whatsapp">
+                            <i class="bi bi-whatsapp"></i>
+                            Envía tu mensaje!
+                        </a>
+                    </div>
+                    <div class="direccion-contacto text-start text-md-center">   
+                        <p class="fs-4 fw-bold">Dirección</p>
+                        <p class="fs-6">Calle 57 N°1163 e/18 y 19</p>
+                        <p class="fs-6">La Plata, Buenos Aires, Argentina</p>                      
+                    </div>
+                    <div class="text-center text-md-end">
+                        <p class="redes mb-3 fs-4 fw-bold text-center">Mis Redes</p>
+                        <div class="gap-3">
+                            <div class="justify-content-center justify-content-md-end gap-3">
+                                <a href="https://www.facebook.com/" class="btn btn-facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook fs-4"></i></a>
+                                <a href="https://x.com/" class="btn btn-twitter" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter fs-4"></i></a>
+                                <a href="https://www.instagram.com/nutriyulianna/" class="btn btn-instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram fs-4"></i></a>
+                                <a href="https://www.linkedin.com/" class="btn btn-linkedin" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin fs-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 w-75 mt-1 mb-4 mx-auto">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0219639144875!2d-57.95797010880804!3d-34.92889035291001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62a2678fb79%3A0x723648dffd894513!2sC.%2057%201163%2C%20B1900BNS%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1740538358856!5m2!1ses-419!2sar" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
         </div>
-        <h3 class="titulo-footer">Mis redes:</h3>
-        <nav class="datos-redes">
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Youtube</a></li>
-            </ul>
-        </nav>
+    </main>
+    <!-- Footer general -->
+    <footer class="footer-common">
+        <div class="container">
+            <div class="d-flex justify-content-around flex-column flex-md-row">
+                <!-- Horarios de Atención -->
+                <div class="Horarios">
+                    <p>Horarios de Atención</p>
+                    <ul class="list-unstyled">
+                        <li>Lunes a Viernes: 9:00 - 18:00 hs</li>
+                        <li>Sábados: 9:00 - 13:00 hs</li>
+                    </ul>
+                </div>   
+                <!-- Especialidades -->
+                <div class="Especialidades">
+                    <p>Especialidades</p>
+                    <ul class="list-unstyled">
+                        <li>Nutrición en la mujer</li>
+                        <li>Nutrición clínica y hormonal</li>
+                        <li>Alimentación vegetariana o vegana</li>
+                    </ul>
+                </div>
+            </div>   
+            <!-- Derechos de Autor y Enlaces Legales -->
+            <div class="text-center mt-3">
+                <p class="footer-text">© 2025 Lic. en Nutrición MP 6888 Yuliana Lazo | Enfoque en objetivos no pesocentrista</p>
+                <a class="footer-link">Política de Privacidad</a> | 
+                <a class="footer-link">Términos y Condiciones</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

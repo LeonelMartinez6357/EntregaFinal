@@ -1,0 +1,20 @@
+{
+  "name": "tercera-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonelMartinez6357/SegundaEntrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonelMartinez6357/SegundaEntrega/issues"
+  },
+  "homepage": "https://github.com/LeonelMartinez6357/SegundaEntrega#readme",
+  "description": ""
+}

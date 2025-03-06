@@ -1,67 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
+    <meta name="description" content="Nutricionista en La Plata. Consulta presencial y online con la Lic. Yuliana Lazo. Planes personalizados para mejorar tu bienestar y alimentación.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="keywords" content="nutricionista, salud, alimentación saludable, consulta online, La Plata, planes nutricionales">
     <!--  Linkeo CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="./css/main.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Titulo -->
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
     <title>Inicio - Nutricionista Lazo</title>
 </head>
-<body>
-    
+<body>   
     <!-- Header general -->
-
-    <header>
-        <!-- menu, logo, titulo, redes, carrusel -->
-        <div class="logo-header">
-            <img src="./assets/Logo.png">
-        </div>
-        <h1>Lic. Lazo, Yuliana Melina</h1>
-        <nav class="menu-header">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./html/servicios.html">Servicios</a></li>
-                <li><a href="./html/contacto.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main index -->
-
-    <main>
-        <!-- contenido principal -->
-        <section class="section-index">
-            <h2 class="subtitulo-index">Nutricionista | La Plata | Yuliana Lazo</h2>
-            <p>Sesiones presenciales y virtuales | ¿Que esperas? ¡Acercate a mi consultorio o hace todo desde tu casa online!</p>
-        </section>        
-    </main>
-    <aside>
-        <!-- contenido de 2da categoria, publicidad -->
-    </aside>
-
-    <!-- Footer general -->
-
-    <footer>
-        <!-- redes sociales, menu de navegacion, contactos, etc.. -->
-            <div class="logo-footer">
-                <img src="./assets/Logo.png">
+    <header class="header-common">
+        <div class="container-fluid px-1 px-md-5">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">                
+                <a class="d-flex justify-content-center justify-content-md-start" href="./index.html">
+                    <img src="./assets/Logo.webp" alt="Logo" class="img-fluid custom-img w-75">
+                </a>
+                <div class="d-flex flex-column flex-md-row align-items-center gap-md-3"> 
+                    <h1 class="display-5 display-md-3 mb-3 fw-bold">Lic. Lazo, Yuliana Melina</h1>
+                    <nav class="menu-header">
+                        <ul class="nav justify-content-center justify-content-md-end gap-2 gap-md-3 flex-md-row mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="./html/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="./html/noticias.html">Noticias</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-custom" href="./html/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <h3 class="titulo-footer">Mis redes:</h3>
-            <nav class="datos-redes">
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Youtube</a></li>
-                </ul>
-            </nav>
+        </div>        
+    </header>
+    <!-- Main index -->
+    <main class="main-index fade-in">
+        <!-- contenido principal -->
+        <div class="container-fluid px-1 px-md-5 d-flex justify-content-center align-items-center min-vh-100">
+            <div class="text-center p-4 rounded formato-index ">
+                <h2 class="titulo-index display-4 display-md-3">Nutricionista | La Plata | Yuliana Lazo</h2>
+                <p class="subtitulo-index fs-3 fs-md-2">Sesiones presenciales y virtuales | ¿Que esperas? ¡Acercate a mi consultorio o hace todo desde tu casa online!</p>
+            </div> 
+        </div>       
+    </main>
+    <!-- Footer general -->
+    <footer class="footer-common">
+        <div class="container">
+            <div class="d-flex justify-content-around flex-column flex-md-row">
+                <!-- Horarios de Atención -->
+                <div class="Horarios">
+                    <p>Horarios de Atención</p>
+                    <ul class="list-unstyled">
+                        <li>Lunes a Viernes: 9:00 - 18:00 hs</li>
+                        <li>Sábados: 9:00 - 13:00 hs</li>
+                    </ul>
+                </div>   
+                <!-- Especialidades -->
+                <div class="Especialidades">
+                    <p>Especialidades</p>
+                    <ul class="list-unstyled">
+                        <li>Nutrición en la mujer</li>
+                        <li>Nutrición clínica y hormonal</li>
+                        <li>Alimentación vegetariana o vegana</li>
+                    </ul>
+                </div>
+            </div>   
+            <!-- Derechos de Autor y Enlaces Legales -->
+            <div class="text-center mt-3">
+                <p class="footer-text">© 2025 Lic. en Nutrición MP 6888 Yuliana Lazo | Enfoque en objetivos no pesocentrista</p>
+                <a class="footer-link">Política de Privacidad</a> | 
+                <a class="footer-link">Términos y Condiciones</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

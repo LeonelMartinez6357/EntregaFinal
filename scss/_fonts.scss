@@ -1,0 +1,62 @@
+$h1-font: "Great Vibes", serif;
+$h2-font: "Poppins", sans-serif;
+$h3-font: "Poppins", sans-serif;
+$btn-font: "Poppins", sans-serif;
+$redes-font: "Poppins", sans-serif;
+$titulo-index-font: "Poppins", sans-serif;
+$subtitulo-index-font: "Poppins", sans-serif;
+$datos-contacto-font: "Poppins", sans-serif;
+$carousel-servicios-font: "Poppins", sans-serif;
+$subtitulo-imagenes-font: "Poppins", sans-serif;
+
+
+h1 {
+    font-family: $h1-font;
+    margin-bottom: 10px;  
+    font-weight: bold;  
+}
+
+h2 {
+    font-family: $h2-font; 
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: $h3-font;   
+}
+
+.btn {
+    font-family: $btn-font;
+}
+
+.redes {
+    font-family: $redes-font;
+}
+
+.titulo-index {
+    font-family: $titulo-index-font;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+.subtitulo-index {
+    font-family: $subtitulo-index-font;
+}
+
+.datos-contacto {
+    font-family: $datos-contacto-font;
+}
+
+.redes {
+    font-family: $redes-font;
+}
+
+.carousel-servicios {
+    font-family: $carousel-servicios-font;
+}
+
+.subtitulo-imagenes {
+    font-family: $subtitulo-imagenes-font;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+@use "reset";
+@use "variables";
+
+// Import bootstrap //
+
+@use "../node_modules/bootstrap/scss/bootstrap";
+
+// Import scss //
+
+@use "colores";
+@use "custom";
+@use "fonts";
+@use "styles";

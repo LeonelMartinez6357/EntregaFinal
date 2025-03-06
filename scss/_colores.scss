@@ -1,0 +1,148 @@
+$header-bg: #f1e8e3;
+$header-color: #c16873;
+
+$main-bg: rgba(255, 255, 255, 0.7);
+$main-color: #8f4c5e;
+
+$main-servicios-bg: #f1e3e3;
+$main-servicios-color: #B95D5D;
+$subtitulo-servicios-color: #8B0000;
+$subtitulo-imagenes-color: #B22222;
+
+$main-noticias-bg: #f1e3e3;
+$main-noticias-color: #B95D5D;
+$instagram-card-bg: #f1e3e3;
+$instagram-card-color: #B95D5D;
+
+$main-contacto-bg: #f1e3e3;
+$main-contacto-color: #B95D5D;
+$subtitulo-contactos-color: #8B0000;
+$direccion-contacto-color: #444;
+$direccion-contacto-p-color: #333;
+$telefono-contacto-color: #444;
+$redes-color: #444;
+
+$footer-bg: #f1e8e3;
+$footer-color: #c16873;
+
+$h1-color: #8f4c5e;
+$h2-color: #c16873;
+
+$titulo-index-color: #df5e6d;
+$subtitulo-index-color: #df5e6d;
+
+///////// Colores Estructuras ////////////
+
+.header-common {
+  background-color: $header-bg;
+  color: $header-color;
+}
+
+.main-index {
+  background-color: $main-bg;
+  color: $main-color;
+  background-color: rgba(0, 0, 0, 0.3); /* Color de fondo semitransparente */
+}
+
+.footer {
+  background-color: $footer-bg;
+  color: $footer-color;
+}
+  
+///////// Colores h ////////////
+
+h1 {
+  color: $h1-color; 
+}
+
+h2 {
+  color: $h2-color;
+}
+
+///////// Colores INDEX ////////////
+
+.titulo-index {
+  color: $titulo-index-color;
+}
+
+.subtitulo-index {
+  color: $subtitulo-index-color;
+}
+
+///////// Colores SERVICIOS ////////////
+
+.main-servicios {
+  background-color: $main-servicios-bg;
+  color: $main-servicios-color;
+}
+
+.subtitulo-servicios {
+  color: $subtitulo-servicios-color;
+}
+
+.subtitulo-imagenes {
+  color: $subtitulo-imagenes-color;
+}
+
+///////// Colores NOTICIAS ////////////
+
+.main-noticias {
+  background-color: $main-noticias-bg;
+  color: $main-noticias-color;
+}
+
+.instagram-card {
+
+  .card {
+      background: $instagram-card-bg;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+      .card-content {
+
+          h3 {
+            color: $subtitulo-servicios-color; 
+          }
+
+          p {
+            color: $instagram-card-color;
+          }
+
+          .btn-instagram {
+              background-color: $main-color;
+              color: white;
+
+              &:hover {
+                background-color: darken($main-color, 10%);
+              }
+          }
+      }
+  }
+}
+
+///////// Colores CONTACTO ////////////
+
+.main-contacto {
+  background-color: $main-contacto-bg;
+  color: $main-contacto-color;
+}
+
+.subtitulo-contacto {
+  color: $subtitulo-contactos-color;
+}
+
+.direccion-contacto {
+  color: $direccion-contacto-color;
+
+  &.p {
+    color: $direccion-contacto-p-color;
+  }
+}
+
+.telefono-contacto {
+  color: $telefono-contacto-color;
+}
+
+.redes {
+  color: $redes-color;
+}
+
